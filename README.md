@@ -2,20 +2,18 @@
 
 [PostCSS] plugin for import Google fonts.
 
-[PostCSS]: https://github.com/postcss/postcss
-[ci-img]:  https://travis-ci.org/yordis/postcss-google-font.svg
-[ci]:      https://travis-ci.org/yordis/postcss-google-font
+***Syntax:*** `@googl-font font-family styles [subset]`
+- ***font-family***: The name of the font. ***Compound family names*** should be wrapped out
+inside quotes or double quotes
+- ***styles***: The styles of the font. Use the comma for separated multiples styles: `400,500,700italic`
+- ***subset*** (optional): The subset of the font. Use the comma for separated multiples styles: `latin,latin-ext`
 
 ```css
-.foo {
-    /* Input example */
-}
+@google-font Lato 400 latin;
 ```
 
 ```css
-.foo {
-  /* Output example */
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:400?subset=latin);
 ```
 
 ## Usage
@@ -25,3 +23,7 @@ postcss([ require('postcss-google-font') ])
 ```
 
 See [PostCSS] docs for examples for your environment.
+
+[PostCSS]: https://github.com/postcss/postcss
+[ci-img]:  https://travis-ci.org/yordis/postcss-google-font.svg
+[ci]:      https://travis-ci.org/yordis/postcss-google-font
