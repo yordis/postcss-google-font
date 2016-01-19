@@ -2,7 +2,7 @@
 
 [PostCSS] plugin for import Google fonts.
 
-***Syntax:*** `@googl-font font-family styles [subset]`
+***Syntax:*** `@google-font font-family styles [subset]`
 - ***font-family***: The name of the font. ***Compound family names*** should be wrapped out
 inside quotes or double quotes
 - ***styles***: The styles of the font. Use the comma for separated multiples styles: `400,500,700italic`
