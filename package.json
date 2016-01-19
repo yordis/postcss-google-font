@@ -1,0 +1,29 @@
+{
+  "name": "postcss-google-font",
+  "version": "0.0.0",
+  "description": "PostCSS plugin for import Google fonts",
+  "main": "./lib/index.js",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "google",
+    "fonts"
+  ],
+  "author": "Yordis Prieto <yordis.prieto@gmail.com>",
+  "license": "MIT",
+  "repository": "yordis/postcss-google-font",
+  "bugs": {
+    "url": "https://github.com/yordis/postcss-google-font/issues"
+  },
+  "homepage": "https://github.com/yordis/postcss-google-font",
+  "dependencies": {
+    "postcss": "^5.0.13"
+  },
+  "devDependencies": {
+    "ava": "^0.9.1"
+  },
+  "scripts": {
+    "test": "ava"
+  }
+}
