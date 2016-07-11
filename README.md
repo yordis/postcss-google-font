@@ -1,4 +1,4 @@
-# PostCSS Google Font [![Build Status][ci-img]][ci]
+# PostCSS Google Font [![Build Status]
 
 [PostCSS] plugin for import Google fonts.
 
