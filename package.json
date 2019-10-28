@@ -21,9 +21,9 @@
     "postcss": "^5.0.13"
   },
   "devDependencies": {
-    "ava": "^0.10.0"
+    "jest": "24.9.0"
   },
   "scripts": {
-    "test": "ava"
+    "test": "jest"
   }
 }
