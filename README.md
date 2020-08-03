@@ -1,19 +1,23 @@
 # PostCSS Google Font
 
+## Improve the fork from https://github.com/yordis/postcss-google-font
+
 [PostCSS] plugin for import Google fonts.
 
-***Syntax:*** `@google-font font-family styles [subset]`
+***Syntax:*** `@google-font font-family styles [args]`
 - ***font-family***: The name of the font. ***Compound family names*** should be wrapped out
 inside quotes or double quotes
 - ***styles***: The styles of the font. Use the comma for separated multiples styles: `400,500,700italic`
-- ***subset*** (optional): The subset of the font. Use the comma for separated multiples styles: `latin,latin-ext`
+- ***args*** (optional): The dislpay and subset of the font: `display=swap,subset=latin|latin-ext`
 
 ```css
-@google-font Lato 400 latin;
+@google-font Lato 400 subset=latin;
+@google-font Lato 400 display=swap,subset=latin|latin-ext;
 ```
 
 ```css
 @import url(https://fonts.googleapis.com/css?family=Lato:400?subset=latin);
+@import url(https://fonts.googleapis.com/css?family=Lato:400?display=swap&subset=latin,latin-ext);
 ```
 
 ## Usage

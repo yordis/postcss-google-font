@@ -10,13 +10,13 @@
     "google",
     "fonts"
   ],
-  "author": "Yordis Prieto <yordis.prieto@gmail.com>",
+  "author": "Steven de Jong <steven@steven-dejong.nl>",
   "license": "MIT",
-  "repository": "yordis/postcss-google-font",
+  "repository": "stevendejongnl/postcss-google-font",
   "bugs": {
-    "url": "https://github.com/yordis/postcss-google-font/issues"
+    "url": "https://github.com/stevendejongnl/postcss-google-font/issues"
   },
-  "homepage": "https://github.com/yordis/postcss-google-font",
+  "homepage": "https://github.com/stevendejongnl/postcss-google-font",
   "dependencies": {
     "postcss": "^7.0.32"
   },
