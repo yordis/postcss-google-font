@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/yordis/postcss-google-font",
   "dependencies": {
-    "postcss": "^7.0.32"
+    "postcss": "^8.2.10"
   },
   "devDependencies": {
     "@straw-hat/prettier-config": "1.0.1",
